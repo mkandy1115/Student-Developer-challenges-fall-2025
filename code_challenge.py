@@ -1,16 +1,13 @@
 # Matthew Andrus
-# This is code answers to the challenge for the student developer position.
+# This is the code answer to the challenge option 2 for the student developer position.
 
-"""
-Option 2 (includes all 4 sections below):
-Complete the tasks in any order and in any language. You may use helper functions
-if desired.
-"""
+# Option 2 (includes all 4 sections below):
 
 """
 1: Write a function that will reverse the given input string.
 For Example: function("string") -> "gnirts"
 """
+
 def str_reverse(usrstr):
     reverse_str = usrstr[::-1] #save to reverse_str using list slicing, backward step
     return reverse_str
@@ -20,6 +17,7 @@ def str_reverse(usrstr):
 largest of the three.
 For Example: function(1, 3, 2) -> 3
 """
+
 def max_of_three(num1, num2, num3):
     numlist = [num1, num2, num3] #save values to a list, since there are only three
     return max(numlist) #only returns the largest number of the list
@@ -29,6 +27,7 @@ def max_of_three(num1, num2, num3):
 Factorial: n! = n * (n-1) * (n-2) * ... * 1, so 3! = 3 * 2 * 1 = 6
 For Example: function(3) = 6
 """
+
 def recursive_factorial(usrnum, result = 1): #takes an  user input integer and a result(integer)
     if usrnum == 1:
         return result # Base case; returns the result if the input is 1
@@ -77,5 +76,7 @@ def main():
     print(max_of_three(3,5,66))
     print(recursive_factorial(4))
     print(fibonacci(17))
+    
 if __name__ == "__main__":
     main()
+
