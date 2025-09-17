@@ -1,4 +1,3 @@
-# Matthew Andrus
 # This is the code answer to the challenge option 2 for the student developer position.
 
 # Option 2 (includes all 4 sections below):
@@ -79,4 +78,5 @@ def main():
     
 if __name__ == "__main__":
     main()
+
 
